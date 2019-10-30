@@ -21,7 +21,7 @@ data "aws_subnet" "subnet" {
 
 data "aws_security_group" "group_name" {
   name = "${var.group_name}"
-  vpc_id = "${var.vpc_id.id}"
+  vpc_id = "${var.vpc_id}"
 }
 
 resource "aws_instance" "web-server" {
