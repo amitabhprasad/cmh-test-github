@@ -40,7 +40,7 @@ variable "group_name" {
   default = "ucdev_secgroup_nva"
 }
 
-variable "centos-user" {
+variable "system_user" {
   type = "string"
   default = "ubuntu"
 }
