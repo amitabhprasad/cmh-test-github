@@ -35,6 +35,6 @@ output "tls-private-key" {
 
 # Centos AMI user
 output "web-server-user" {
-  value = "${var.system_user}"
+  value = "${var.centos-user}"
 }
 
