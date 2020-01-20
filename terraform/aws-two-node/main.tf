@@ -54,7 +54,7 @@ resource "aws_instance" "db-server" {
   tags = "${merge(
     module.camtags.tagsmap,
     map(
-      "Name", "cmh-ans-db-1",
+      "Name", "ap-ans-db-1",
       "dbservers", ""
     )
   )}"
